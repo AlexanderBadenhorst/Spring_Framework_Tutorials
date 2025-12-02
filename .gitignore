@@ -1,0 +1,39 @@
+### IntelliJ ###
+.idea/
+*.iml
+out/
+
+### Maven ###
+target/
+.m2/
+**/target/
+
+### VS Code ###
+.vscode/
+
+### Logs ###
+logs/
+*.log
+
+### OS Files ###
+.DS_Store
+Thumbs.db
+
+### Docker ###
+docker-compose-spring-boot-postgres-master-app/
+docker-compose/
+postgres-data/
+db/
+**/docker/
+**/overlay2/
+**/volumes/
+
+### Postgres volumes ###
+pgdata/
+**/pgdata/
+
+### Node ###
+node_modules/
+
+### WSL ###
+/mnt/wsl/
